@@ -84,7 +84,7 @@ docker run --rm -it --net cbio-net \
     migrate_db.py -p /cbioportal/portal.properties -s /cbioportal/db-scripts/src/main/resources/migration.sql
 ```
 
-### Step 5 - Build Session Service containers
+### Step 5 - Run Session Service containers
 First, create the mongoDB database:
 
 ```
