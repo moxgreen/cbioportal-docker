@@ -98,7 +98,7 @@ Finally, create a container for the Session Service, adding the link to the mong
 ```
 docker run -d --name=cbio-session-service --net=cbio-net -p 8084:8080 \
     -e JAVA_OPTS="-Dspring.data.mongodb.uri=mongodb://mongoDB:27017/session-service" \
-    thehyve/cbioportal-session-service:docker
+    thehyve/cbioportal-session-service:cbiov2.1.0
 ```
 
 ### Step 6 - Run the cBioPortal web server ###
